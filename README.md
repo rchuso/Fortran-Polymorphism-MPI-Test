@@ -23,6 +23,7 @@ To execute the program:
   - mpiexec -n 2 /bin/PolymorphicFortran
 
 The output should be similar to this:
+
     0:2      Has:[0:2 id:89 Datatype:73 Name:Fred]
     0:2     Sent:[0:2 id:89 Datatype:73 Name:Fred]
     0:2      Has:[id:59 Datatype:74 0:2 Name:Bam-bam Betty]
@@ -33,6 +34,7 @@ The output should be similar to this:
     1:2     Sent:[id:71 Datatype:74 1:2 Name:Wilma Pebbles]
 
 or
+
     0:2      Has:[0:2 id:89 Datatype:73 Name:Fred]
     1:2      Has:[1:2 id:59 Datatype:73 Name:Barney]
     0:2     Sent:[0:2 id:89 Datatype:73 Name:Fred]
